@@ -35,12 +35,74 @@ fn main(){
 
 
     //! strings
-        let name: String = String::from("Hello! Raj");
-        println!("{}", name);
+        // let name: String = String::from("Hello! Raj");
+        // println!("{}", name);
 
         //? print the first letter
          // Se'll later
-         
+
+
+
+    //! Mutability
+    //  let x:i8 = 10;         
+    //  x = x + 2;  //? This will give an error
+
+    // let mut x:i8 = 12;   //? it'll work because we add mut
+    // x = x + 2;
+    // println!("{}", x)
+
+
+    //! shadowing
+     
+       //? Now, here first varibal x is shadowed by the second x veriable
+        // let x:i16 = 20;
+        // print!("{}", x);
+
+        // let x:i16 = 30;
+
+        // print!("{}", x);
+
+
+        //! Compound data types ---> Tuples and Arrays
+        
+
+        //!  Tuples ---> Can have multiple types
+        // let tup: (i32, u16, f64) = (10, 28, 20.3);
+
+        //? Accessing an element
+        // let x = tup.0;
+        // let y = tup.1;
+        // let z = tup.2;
+        // print!("{x}, {y}, {z}");
+        //?_________ OR ___________
+        
+        // let tup = (500,12.8, 30);
+        // let (x, y, z) = tup;     //? pattern matching by desctructing a tuple
+
+        // print!("The value of x, y, z is: {}, {}, {}", x, y, z);
+
+
+
+     //! Array type --> only have same typs of elements
+    
+        // let a: [i32; 5] = [1, 2, 3, 4, 5];  //? Declaration of an array
+        // let a = [2; 5];   //? This will give [2, 2, 2, 2, 2]
+
+        // //? Accessing an element
+        // let a:[i32; 5] = [1, 2, 3, 4, 5];
+
+        // let x = a[0];
+        // let y = a[3];
+
+        // print!(" {x} ");
+        // print!(" {y} ");
+
+        
+        
+
+
+
+
 
 
     
