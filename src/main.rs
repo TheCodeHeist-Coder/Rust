@@ -2,7 +2,6 @@
 
 
 fn main(){
-
     //! Variables
     // let x: i32 = -2;  // here i32 is a signed integer of 32 bits (+ or -)
     // let y: u32 = 20;  // u32 is an unsigned integer
@@ -81,8 +80,6 @@ fn main(){
 
         // print!("The value of x, y, z is: {}, {}, {}", x, y, z);
 
-
-
      //! Array type --> only have same typs of elements
     
         // let a: [i32; 5] = [1, 2, 3, 4, 5];  //? Declaration of an array
@@ -97,13 +94,30 @@ fn main(){
         // print!(" {x} ");
         // print!(" {y} ");
 
-        
-        
 
 
 
 
 
+        //! Conditionals and loops
+            // let is_even: bool = true;
 
-    
+            // if is_even {
+            //     println!("Number is even");
+            // }else {
+            //      {
+            //         println!("Number is not even");
+            //      }
+            // }
+
+
+         //? for loop
+            // for i in 0..10 {
+            //     print!("{} ", i);
+            // }
+
+
+
+
+
 }
