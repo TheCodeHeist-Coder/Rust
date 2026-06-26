@@ -117,7 +117,74 @@ fn main(){
             // }
 
 
+         //! Funtions...
+         //? function declaration
+        //  println!("Hii, this is the main function");
+        //  test(10,'h');
+         
+         //? statements and expressions
+        //  statements_expression();
+
+        //? return value in funtions
+    //    let x: i32 = return_val();
+    //    println!("The return value is: {}", x);
+
+    // let x:i32 = return_val(10);
+    // println!("The return value is: {}", x);
+
+
+    //! Using if in let statement
+        // let you: bool = true; 
+        // let x = if you {10} else {20};    
+        // println!("The value of the number is: {}",x);
+
+
+    //! loop, for and while
+
+    //? loop
+    //  loop {            //? run over and over again infinitly untill we stop it manually
+    //      println!("Again");
+    //  }   
+
+    
+    // let mut counter = 0;
+    // let result = loop {
+    //    counter += 1;
+
+    //    if counter == 10 {
+    //     break counter * 2;
+    //    }
+    // }; 
+
+    // println!("The value of counter is: {}",result);
 
 
 
 }
+
+//? funtion declaration
+// fn test(x:i32, unit:char){
+//     println!("Hii, This is the test funtion in {x}{unit}");
+// }
+
+//? statements and expressions
+// fn statements_expression(){
+    // let x = 6;  //? this is the statement, doesn't return any kind of value
+
+//     let y = {
+//         let x = 5;
+//          x + 10  //? Here, we didnt use semicolon, because it's a expression ending and returning something(x + 10), but if we use ;, then it'll not return anything
+//     };
+
+//     println!("The value of y is: {}", y);
+// }
+
+
+//? return value in functions
+// fn return_val() -> i32 {
+//     10
+// }
+
+// fn return_val(x:i32) -> i32 {
+//     x + 20
+// }
