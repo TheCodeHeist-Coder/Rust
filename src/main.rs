@@ -1,7 +1,7 @@
 
 
 
-fn main(){
+// fn main(){
     //! Variables
     // let x: i32 = -2;  // here i32 is a signed integer of 32 bits (+ or -)
     // let y: u32 = 20;  // u32 is an unsigned integer
@@ -160,7 +160,23 @@ fn main(){
 
 
 
-}
+
+    //! Ownership   ---> Some set of rules for memory management
+    
+    //? Example 01
+    // let s1 = String::from("Hello");
+    // let s2 = s1;
+
+    // println!("{}", s1);  //? Give an compilation error
+
+
+    
+
+    
+
+
+
+// }
 
 //? funtion declaration
 // fn test(x:i32, unit:char){
@@ -187,4 +203,44 @@ fn main(){
 
 // fn return_val(x:i32) -> i32 {
 //     x + 20
+// }
+
+
+
+//? Example 02 of ownership
+// fn main(){
+
+//     //! Ownership 
+//     //? Example 02
+
+//     let my_string = String::from("Hello");   //? now my_string is the owner of this heap data
+//     takes_ownership(my_string);     //? now the owner of the data "Hello"  is the some_string
+ 
+//     println!("{}", my_string);       //? So now this will give an compile error because ownership has been moved
+
+
+// }
+
+// fn takes_ownership(some_string:String){
+//     println!("{}",some_string);           //? some_string now owns the data           
+// }
+
+//?  __________________How can it work ??________________
+
+//     //! Ownership 
+// fn main(){
+
+
+
+//     let mut my_string = String::from("Hello");   
+//    my_string = takes_ownership(my_string);     
+ 
+//     println!("{}", my_string);       
+
+
+// }
+
+// fn takes_ownership(some_string:String) -> String{
+//     println!("{}",some_string);            
+//     return some_string          
 // }
