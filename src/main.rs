@@ -278,3 +278,32 @@
     // fn upadate_word(word: &mut String){
     //     word.push_str(" World");
     // }
+
+
+
+
+
+    //! Structs
+    //? Structs in rust let you structure data together. Similar to Objects in JS
+
+    // struct User {
+    //     active: bool,
+    //     username: String,
+    //     email: String,
+    //     sing_in_count: u64
+    // }
+
+    // fn main(){
+
+    //     let user1 = User {
+    //         active: true,
+    //         username: String::from("rajk123"),
+    //         email: String::from("raj@google.com"),
+    //         sing_in_count: 1
+    //     };
+
+    //     print!("User 1 username: {:?}", user1.username);
+
+    // }
+
+    //!
