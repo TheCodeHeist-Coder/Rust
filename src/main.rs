@@ -244,3 +244,37 @@
 //     println!("{}",some_string);            
 //     return some_string          
 // }
+
+
+//! References
+    // fn main(){
+    //     let s1 = String::from("Hello");
+
+    //     let s2 = &s1;
+
+    //     println!("{}", s2);
+    //     println!("{}", s1);  //? This is valid, The first pointer wasn't invalidated
+    // } 
+
+//! Borrowing
+    // fn main(){
+    //     let my_string = String::from("Hello");
+    //     borrow_variable(&my_string);  //? pass a reference to my_string
+    //     println!("{}", my_string);        //? This is a valid because ownership was not transferred
+
+    // }    
+
+    // fn borrow_variable(some_string: &String){
+    //     println!("{}", some_string); //? Some_string is borrowed and not moved
+    // }
+
+//! Mutable references --> If you want a function to `update` the value of a variable
+    // fn main(){
+    //     let mut s1 = String::from("Hello");
+    //     upadate_word(&mut s1);
+    //     println!("{}", s1);
+    // }
+
+    // fn upadate_word(word: &mut String){
+    //     word.push_str(" World");
+    // }
