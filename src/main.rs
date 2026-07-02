@@ -331,3 +331,27 @@
     //     print!("The area of the rectangle is {}", rect.area());
     //     print!("The area of the rectangle is {}", rect.parimeter());
     // }
+
+
+    //! Enums 
+    //? Similar to typeScript. They allow you to define a type by enumerating its possible varients
+
+    // enum Direction {
+    //     North,
+    //     East,
+    //     South,
+    //     West
+    // }
+
+    // fn main(){
+    //     let my_direction: Direction = Direction::North;   
+    //     move_around(my_direction);
+
+    // }
+
+    // fn move_around(direction: Direction){
+    //     // your logic here
+    // }
+
+
+    //! Pattern matching and enums with values
