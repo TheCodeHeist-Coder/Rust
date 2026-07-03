@@ -354,4 +354,36 @@
     // }
 
 
-    //! Pattern matching and enums with values
+
+    // //! Pattern matching and enums with values
+    // //? It let's you pattern match across various varients of an enum and run some logic
+
+    // //? Define an enum calles Shape
+    // enum Shape{
+    //     Circle(f64),      // varients with associated data (redius)
+    //     Squere(f64),      // varients with associated data (side length)
+    //     Rectangle(f64, f64) // varients with associated data (width, height)
+    // }
+
+    // //? Funtion to calculate area based on shapes
+    // fn calculate_area(shape: Shape) -> f64 {
+    //     match shape {
+    //         Shape::Circle(radius) => std::f64::consts::PI * radius * radius,
+    //         Shape::Squere(side_length) => side_length * side_length,
+    //         Shape::Rectangle(widht, height, ) => widht * height,
+    //     }
+    // }
+
+
+    // fn main(){
+    //     //? Create instances of various shapes
+    //     let circle = Shape::Circle(5.0);
+    //     let square = Shape::Squere(4.0);
+    //     let rectangle = Shape::Rectangle(3.0, 5.0);
+
+    //     //? Calculate and print the areas
+    //     println!("Area of circle: {}", calculate_area(circle));
+    //     println!("Area of rectangle: {}", calculate_area(rectangle));
+    //     println!("Area of square: {}", calculate_area(square));
+
+    // }
