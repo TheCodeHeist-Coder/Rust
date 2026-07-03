@@ -1,3 +1,13 @@
+
+
+//! Important Slides Link
+//?  https://projects.100xdevs.com/tracks/rust-bootcamp/Rust-Bootcamp-1
+
+
+
+
+
+
 // fn main(){
 //! Variables
 // let x: i32 = -2;  // here i32 is a signed integer of 32 bits (+ or -)
@@ -402,4 +412,5 @@
 
 
 
-//! These Result and Option are the most commanly used enums in Rust
+//! These `Result` and `Option` are the most commanly used enums in 
+
