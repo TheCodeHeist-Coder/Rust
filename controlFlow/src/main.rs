@@ -89,6 +89,10 @@ fn main() {
 
 
     //? another for loop example
-    
+    for number in (1..5).rev() {
+        println!("Number is: {number}");
+    }
+
+    println!("Exited!!!")
 
 }
