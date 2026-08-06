@@ -1,5 +1,5 @@
 pub mod example_basic;
-
+pub mod implbasic;
 fn main() {
     println!("Hello, world!");
 
@@ -7,4 +7,8 @@ fn main() {
     println!("Person is: {}",person.first_name);
 
     example_basic::create_vehicle();
+
+    example_basic::create_vehicle_tuple();
+
+    implbasic::create_vehicle_new();
 } 
